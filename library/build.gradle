@@ -25,6 +25,10 @@ android {
     sourceSets{
         main.java.srcDirs += 'src/main/kotlin/'
     }
+
+    packagingOptions {
+        exclude 'META-INF/library_release.kotlin_module'
+    }
 }
 
 dependencies {
