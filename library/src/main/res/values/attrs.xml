@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EZSpinnerView">
+
+        <!-- Reference to recycler layout. -->
+        <attr name="popup_layout" format="reference" />
+
+        <!-- Reference to recycler layout. -->
+        <attr name="recycler_view" format="reference" />
+
+        <!-- Sets an arrow drawable. -->
+        <attr name="spinner_rotating_view" format="reference" />
+
+        <!-- The duration of the arrow animation. -->
+        <attr name="spinner_arrow_animate_duration" format="integer" />
+
+        <!-- Sets the spinner animation when showing. -->
+        <attr name="spinner_popup_animation" format="enum">
+            <enum name="dropdown" value="0" />
+            <enum name="fade" value="1" />
+            <enum name="bounce" value="2" />
+            <enum name="normal" value="3" />
+        </attr>
+        <!-- 	Sets the customized animation style. -->
+        <attr name="spinner_popup_animation_style" format="reference" />
+        <!-- Sets the width of the popup. -->
+        <attr name="spinner_popup_width" format="dimension" />
+        <!-- Sets the height of the popup. -->
+        <attr name="spinner_popup_height" format="dimension" />
+        <!-- Sets the elevation size of the popup. -->
+        <attr name="spinner_popup_elevation" format="dimension" />
+        <!-- 	Sets the items of the popup. -->
+        <attr name="spinner_item_array" format="reference" />
+        <!-- 	Sets dismiss when the popup item is selected. -->
+        <attr name="spinner_dismiss_notified_select" format="boolean" />
+
+    </declare-styleable>
+</resources>
